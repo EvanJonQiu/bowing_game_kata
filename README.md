@@ -1,4 +1,6 @@
 # Bowling Game Kata
 
-## Rule
+## Referance
+
+1. http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
 
