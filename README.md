@@ -1,0 +1,4 @@
+# Bowling Game Kata
+
+## Rule
+

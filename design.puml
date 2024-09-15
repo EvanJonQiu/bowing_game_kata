@@ -1,0 +1,27 @@
+@startuml
+
+
+class Game {
+      + void roll(int pins)
+      + int Score()
+}
+
+class Frame {
+        + score: int
+}
+
+class Roll {
+        - pints: int
+}
+
+class TenthFrame {}
+
+Game -right-> "10" Frame
+Frame --> "1..2" Roll
+
+TenthFrame -up-|> Frame
+TenthFrame -right-> "1" Roll
+
+Frame --> Frame
+
+@enduml
